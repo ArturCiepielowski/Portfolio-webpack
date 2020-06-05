@@ -43,13 +43,7 @@ navigationNc4.addEventListener("click", (e) => {
 
 
 
-//Page transition
 
-
-
-
-
-// Buttons on experience page
 
 
 

@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
+  
 }
 
 *,
@@ -45,6 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  
 
 }
 
@@ -133,6 +135,14 @@ body {
   }
 
   &__container5 {
+    background: #ffffff;
+    border-radius: 36px;
+    width: 450px;
+    height: 380px;
+    padding: 24px;
+  }
+
+  &__container5EN {
     background: #ffffff;
     border-radius: 36px;
     width: 450px;
@@ -284,6 +294,7 @@ body {
 .mainBody {
   max-width: 100%;
   width: 1012px;
+  
   margin: auto;
 }
 
@@ -610,6 +621,8 @@ html.is-animating .transition-fade {
 
 @media (max-width: 1350px){
 
+
+
   .experienceBody{
 
     height:1800px;
@@ -654,6 +667,11 @@ html.is-animating .transition-fade {
       margin: 16px 16px 16px 16px;
     }
 
+    &__container5EN{
+
+      margin: 16px 16px 16px 16px;
+    }
+
     &__slider1{
 
       justify-content: start;
@@ -670,6 +688,11 @@ html.is-animating .transition-fade {
       justify-content: start;
     }
 
+  }
+
+  .mainBody {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
 }
@@ -713,6 +736,12 @@ html.is-animating .transition-fade {
 
       width: 280px;
       height: 460px;
+    }
+
+    &__container5EN{
+
+      width: 280px;
+      height: 490px;
     }
 
     &__img1{
@@ -788,6 +817,11 @@ html.is-animating .transition-fade {
   }
 
   &__container5{
+
+    margin: 10px 0px 10px 0px;
+  }
+
+  &__container5EN{
 
     margin: 10px 0px 10px 0px;
   }
@@ -881,10 +915,7 @@ html.is-animating .transition-fade {
   }
 
 
-  .mainBody {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+  
 
   .material-icons{
 
