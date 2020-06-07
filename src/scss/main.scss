@@ -208,6 +208,7 @@ body {
 .footer {
   background: url(../assets/img/background.png);
   height: 60px;
+  min-height: 60px;
   display: flex;
   justify-content: space-around;
   margin-top:auto;
@@ -312,7 +313,7 @@ body {
   height: 215px;
   box-sizing: border-box;
   background: url(../assets/img/background.png);
-
+  min-height: 215px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -419,7 +420,7 @@ body {
     border-radius: 50px;
     background: none;
     padding: 20px 40px;
-    font-size: 40px;
+    font-size: 36px;
     cursor: pointer;
     color: #232a32;
     transition: 0.8s;
@@ -706,7 +707,7 @@ html.is-animating .transition-fade {
 
   .experience{
 
-    height:2350px;
+    height:2450px;
 
     &__container1{
 
