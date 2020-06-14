@@ -467,8 +467,15 @@ body {
   }
 }
 
-.position1 {
+.position--js{
+
   margin-top: 60px;
+}
+
+
+
+.position1 {
+  
   height: auto;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -495,7 +502,7 @@ body {
 }
 
 .position3 {
-  margin-top: 60px;
+  
   height: auto;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -522,7 +529,7 @@ body {
 }
 
 .position4 {
-  margin-top: 60px;
+  
   height: auto;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -549,7 +556,7 @@ body {
 }
 
 .position5 {
-  margin-top: 60px;
+  
   height: auto;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -923,6 +930,16 @@ html.is-animating .transition-fade {
     font-size: 54px;
   }
 
+.position--js{
+
+  margin-top: 0px;
+}
+
+.position--openMenu{
+
+  margin-top: -280px;
+}
+
   .position1 {
 
     &__header{
@@ -996,7 +1013,7 @@ html.is-animating .transition-fade {
 
 @media (max-width: 800px){
   .position1 {
-    margin-top: 0px;
+    
 
     &__img {
       margin: auto;
